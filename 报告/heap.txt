@@ -1,0 +1,61 @@
+const int MAXHEAPNODE = 64;
+const int INFINITE = 10001;  //the infinite number(the maximum number of the edges)
+typedef struct HuffmanNode * HuffmanTree;
+struct HuffmanNode {
+ int frequency;
+ HuffmanTree Left, Right;
+};
+//struct for the minheap
+struct h{
+	int size; //the size pf the minheap
+	HuffmanTree element[MAXHEAPNODE]; //all the elements stored here
+};
+typedef struct h* heap;
+
+heap initialize(); //initialize the heap
+void insert(HuffmanTree x, heap H); //insert a node into the heap
+HuffmanTree DeleteMin(heap H);//delete the min element in a heap
+
+heap initialize() //initialize the heap
+{
+	heap H;
+	H = (heap)malloc(sizeof(struct h));
+	H->size = 0;
+	H->element[0] = (HuffmanTree)malloc(sizeof(struct HuffmanNode));
+	H->element[0]->frequency = -INFINITE; //initialize the size as 0 and the mindata as -infinite
+	H->element[0]->Left = NULL;
+    H->element[0]->Right = NULL;
+	return H;
+}
+
+void insert(HuffmanTree x, heap H) //insert a number in the heap
+{
+	int i;
+	for (i = ++H->size; H->element[i/2]->frequency > x->frequency; i /= 2) 
+	H->element[i] = H->element[i/2]; //percolate up
+    H->element[i] = x;
+}
+
+HuffmanTree DeleteMin(heap H) //delete the min element in a heap
+{
+	int i, c; 
+    HuffmanTree Min, Last; 
+    
+    if(!H->size)
+    {
+        return NULL;
+    }
+    
+    Min = H->element[1];  // save the min
+    Last = H->element[H->size--];  // take last and decremented the size
+    for (i = 1; i * 2 <= H->size; i = c) {  //Find smaller child
+         c = i * 2; 
+         if (c != H->size && H->element[c+1]->frequency < H->element[c]->frequency) 
+	       c++;     
+         if ( Last->frequency > H->element[c]->frequency)
+	       H->element[i] = H->element[c]; // Percolate down
+         else break;   // find the proper position to put the last element
+    } 
+    H->element[i] = Last; 
+    return  Min;
+}

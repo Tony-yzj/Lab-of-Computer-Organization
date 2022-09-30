@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar  2 19:01:41 2022
+# Process ID: 34028
+# Current directory: D:/1My Vault/2022 spring/Lab of COAD/project1/ALU/ALU.runs/synth_1
+# Command line: vivado.exe -log ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: D:/1My Vault/2022 spring/Lab of COAD/project1/ALU/ALU.runs/synth_1/ALU.vds
+# Journal file: D:/1My Vault/2022 spring/Lab of COAD/project1/ALU/ALU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace

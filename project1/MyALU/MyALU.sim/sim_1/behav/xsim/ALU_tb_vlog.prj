@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/ADC32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/MUX8T1_32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/SignalExt_32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/and32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/nor32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/or32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/or_bit_32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/srl32.v" \
+"../../../../MyALU.srcs/sources_1/imports/Lab of COAD/project0/Modules/Modules.srcs/sources_1/new/xor32.v" \
+"../../../../MyALU.srcs/sim_1/imports/new/ALU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

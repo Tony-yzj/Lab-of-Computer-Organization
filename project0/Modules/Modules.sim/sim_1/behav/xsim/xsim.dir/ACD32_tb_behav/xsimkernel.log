@@ -1,0 +1,7 @@
+Running: xsim.dir/ACD32_tb_behav/xsimk.exe -simmode gui -wdb ACD32_tb_behav.wdb -simrunnum 0 -socket 52965
+Design successfully loaded
+Design Loading Memory Usage: 9332 KB (Peak: 9332 KB)
+Design Loading CPU Usage: 358 ms
+Simulation completed
+Simulation Memory Usage: 9936 KB (Peak: 9936 KB)
+Simulation CPU Usage: 358 ms

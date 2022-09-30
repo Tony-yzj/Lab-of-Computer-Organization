@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep 14 21:12:15 2022
+# Process ID: 28472
+# Current directory: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27316 D:\CS\2022 fall-winter\体系结构\LabofCOAD\project5\OExp02-IP2SOC_pipline _1\OExp02-IP2SOC.xpr
+# Log file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/vivado.log
+# Journal file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/OExp02-IP2SOC.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CS/2022 fall-winter/体系结构/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/IP/Supplementary'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx2022/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'ROM_P' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'ROM_P' (customized with software release 2017.4) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'ROM_h' is locked:
+* IP definition 'Distributed Memory Generator (8.0)' for IP 'ROM_h' (customized with software release 2017.4) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'OExp02-IP2SOC.xpr' upgraded for this version of Vivado.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 14 23:42:24 2022...

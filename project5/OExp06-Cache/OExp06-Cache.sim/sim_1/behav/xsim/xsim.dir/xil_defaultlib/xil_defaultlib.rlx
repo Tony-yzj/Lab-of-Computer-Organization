@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sim_1/new/cache_tb.v,1655566410,verilog,,,,cache_tb,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Data_ram0.v,1654495250,verilog,,D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Data_ram1.v,,Data_ram0,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Data_ram1.v,1654935595,verilog,,D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Tag_ram0.v,,Data_ram1,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Tag_ram0.v,1654493529,verilog,,D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Tag_ram1.v,,Tag_Ram0,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/Tag_ram1.v,1654493590,verilog,,D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/cache.v,,Tag_Ram1,,,,,,,,
+D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sources_1/new/cache.v,1655566516,verilog,,D:/14.7/LabofCOAD/project5/OExp06-Cache/OExp06-Cache.srcs/sim_1/new/cache_tb.v,,cache,,,,,,,,

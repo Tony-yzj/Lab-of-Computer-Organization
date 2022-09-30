@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar 21 16:23:17 2022
+# Process ID: 9332
+# Current directory: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20720 D:\14.7\LabofCOAD\project2\Lab02 CPU实验环境搭建\Lab02 CPU实验环境搭建（学生版）\OExp02-IP2SOC\OExp02-IP2SOC.xpr
+# Log file: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/vivado.log
+# Journal file: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/OExp02-IP2SOC.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/stu/OExp02-IP2SOC' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/teacher/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/OExp02-IP2SOC/font_8x16.mem', nor could it be found using path 'C:/Users/ASUS/Desktop/teacher/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/OExp02-IP2SOC/font_8x16.mem'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/teacher/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/OExp02-IP2SOC/vga_debugger.mem', nor could it be found using path 'C:/Users/ASUS/Desktop/teacher/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/imports/OExp02-IP2SOC/vga_debugger.mem'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/teacher/OExp02-IP2SOC/I_mem.coe', nor could it be found using path 'C:/Users/ASUS/Desktop/teacher/OExp02-IP2SOC/I_mem.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/IP/Supplementary'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 835.199 ; gain = 111.762
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 21 16:23:54 2022...

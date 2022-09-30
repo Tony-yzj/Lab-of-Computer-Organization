@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 10 10:56:22 2021
+# Process ID: 8604
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7784 C:\Users\ASUS\Desktop\OExp_RISCV\OExp06\OExp06-Dcache\OExp06-Dcache.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cache_tb.tcl
+add_wave {{/cache_tb/uut}} 
+restart
+relaunch_sim
+restart
+relaunch_sim
+restart
+relaunch_sim
+close_sim
+launch_simulation
+source cache_tb.tcl
+restart
+relaunch_sim
+restart
+relaunch_sim
+close_sim
+launch_simulation
+source cache_tb.tcl
+restart
+relaunch_sim
+restart
+relaunch_sim
+restart
+relaunch_sim
+run 10 s
+run all
+restart
+run all
+restart
+run all
+restart
+run all
+run 10 s
+restart
+run all
+close_sim
+launch_simulation
+source cache_tb.tcl
+restart
+restart
+restart
+restart
+restart
+run 10 s
+restart
+restart
+restart
+restart
+run all
+restart
+run all
+restart
+close_sim
+launch_simulation
+source cache_tb.tcl
+restart
+restart
+run all
+add_wave {{/cache_tb/uut}} 
+restart
+run all
+close_sim

@@ -1,0 +1,11 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sim_1/new/cache_tb.v,1623305185,verilog,,,,cache_tb,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Data_Ram0.v,1623132803,verilog,,D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Data_Ram1.v,,Data_Ram0,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Data_Ram1.v,1623132795,verilog,,D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Tag_Ram0.v,,Data_Ram1,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Tag_Ram0.v,1623132788,verilog,,D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Tag_Ram1.v,,Tag_Ram0,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/Tag_Ram1.v,1623132781,verilog,,D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/cache.v,,Tag_Ram1,,,,,,,,
+D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/cache.v,1623128749,verilog,,D:/14.7/LabofCOAD/project6/Lab06 ª∫¥Ê/Lab06 ª∫¥Ê£®¿œ ¶∞Ê£©/OExp06-Dcache/OExp06-Dcache.srcs/sim_1/new/cache_tb.v,,cache,,,,,,,,

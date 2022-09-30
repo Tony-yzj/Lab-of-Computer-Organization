@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar 21 16:23:17 2022
+# Process ID: 9332
+# Current directory: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20720 D:\14.7\LabofCOAD\project2\Lab02 CPU实验环境搭建\Lab02 CPU实验环境搭建（学生版）\OExp02-IP2SOC\OExp02-IP2SOC.xpr
+# Log file: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/vivado.log
+# Journal file: D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/OExp02-IP2SOC.xpr}
+update_compile_order -fileset sources_1

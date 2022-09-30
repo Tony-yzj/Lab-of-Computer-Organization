@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep 14 13:50:04 2022
+# Process ID: 3588
+# Current directory: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17036 D:\CS\2022 fall-winter\体系结构\LabofCOAD\project5\OExp02-IP2SOC_pipline _1\OExp02-IP2SOC.xpr
+# Log file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/vivado.log
+# Journal file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/OExp02-IP2SOC.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/CS/2022 fall-winter/体系结构/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/IP/Supplementary'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 14 19:20:15 2022...

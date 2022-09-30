@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr 30 15:13:09 2022
+# Process ID: 3480
+# Current directory: D:/14.7/LabofCOAD/project3/OxExp3_floatadd/OxExp3_floatadd.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/14.7/LabofCOAD/project3/OxExp3_floatadd/OxExp3_floatadd.sim/sim_1/behav/xsim/xsim.dir/fliat_adder32_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/14.7/LabofCOAD/project3/OxExp3_floatadd/OxExp3_floatadd.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/14.7/LabofCOAD/project3/OxExp3_floatadd/OxExp3_floatadd.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/14.7/LabofCOAD/project3/OxExp3_floatadd/OxExp3_floatadd.sim/sim_1/behav/xsim/xsim.dir/fliat_adder32_tb_behav/webtalk/xsim_webtalk.tcl -notrace

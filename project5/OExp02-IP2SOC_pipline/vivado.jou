@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Sep 14 13:48:21 2022
+# Process ID: 22160
+# Current directory: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19472 D:\CS\2022 fall-winter\体系结构\LabofCOAD\project5\OExp02-IP2SOC_pipline\OExp02-IP2SOC.xpr
+# Log file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline/vivado.log
+# Journal file: D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/CS/2022 fall-winter/体系结构/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.xpr}
+update_compile_order -fileset sources_1

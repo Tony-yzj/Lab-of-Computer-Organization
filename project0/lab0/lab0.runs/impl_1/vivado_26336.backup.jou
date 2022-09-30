@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Feb 23 16:23:06 2022
+# Process ID: 26336
+# Current directory: D:/My Vault/Lab of COAD/lab0/lab0.runs/impl_1
+# Command line: vivado.exe -log Water_LED.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Water_LED.tcl -notrace
+# Log file: D:/My Vault/Lab of COAD/lab0/lab0.runs/impl_1/Water_LED.vdi
+# Journal file: D:/My Vault/Lab of COAD/lab0/lab0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Water_LED.tcl -notrace

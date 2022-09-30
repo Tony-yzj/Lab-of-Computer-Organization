@@ -1,0 +1,459 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 18972
+License: Customer
+
+Current time: 	Mon Jun 20 11:13:05 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1440x960
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 2 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	应周骏
+User home directory: C:/Users/应周骏
+User working directory: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.4
+RDI_DATADIR: D:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/应周骏/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/应周骏/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/应周骏/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/vivado.log
+Vivado journal file location: 	D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/vivado.jou
+Engine tmp dir: 	D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/.Xil/Vivado-18972-LAPTOP-23S8O1B1
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 542 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 43 MB (+42324kb) [00:00:09]
+// [Engine Memory]: 489 MB (+361449kb) [00:00:09]
+// Opening Vivado Project: D:\14.7\LabofCOAD\project5\OExp02-IP2SOC_pipline _1\OExp02-IP2SOC.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/OExp02-IP2SOC.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// [GUI Memory]: 53 MB (+8543kb) [00:00:12]
+// [Engine Memory]: 545 MB (+33178kb) [00:00:12]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 572 MB. GUI used memory: 33 MB. Current time: 6/20/22 11:13:07 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 593 MB (+21601kb) [00:00:16]
+// [GUI Memory]: 56 MB (+362kb) [00:00:17]
+// [GUI Memory]: 61 MB (+1782kb) [00:00:19]
+// Tcl Message: open_project {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1/OExp02-IP2SOC.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/IP/Supplementary'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'. 
+// [Engine Memory]: 639 MB (+17124kb) [00:00:22]
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 830.746 ; gain = 112.457 
+// Project name: OExp02-IP2SOC; location: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline _1; part: xc7k160tffg676-2L
+// [GUI Memory]: 64 MB (+214kb) [00:00:22]
+dismissDialog("Open Project"); // bs (cj)
+// [GUI Memory]: 70 MB (+3009kb) [00:00:23]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 43 MB. Current time: 6/20/22 11:13:22 AM CST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 3); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Memory File]", 6); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1); // B (D, cj)
+// PAPropertyPanels.initPanels (CSSTE.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 22 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ROM_h (ROM_h.xci)]", 2); // B (D, cj)
+// x (cj): Show IP Hierarchy: addNotify
+dismissDialog("Show IP Hierarchy"); // x (cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ROM_h (ROM_h.xci)]", 2, false); // B (D, cj)
+// [GUI Memory]: 74 MB (+195kb) [00:01:23]
+// Elapsed time: 51 seconds
+selectCodeEditor("CSSTE.v", 134, 312); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 1); // k (j, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 666 MB. GUI used memory: 45 MB. Current time: 6/20/22 11:14:53 AM CST
+// [GUI Memory]: 79 MB (+1419kb) [00:02:20]
+// Elapsed time: 27 seconds
+selectCodeEditor("Pipeline_CPU.v", 523, 256); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 1); // k (j, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Writr_Back : Pipeline_WB (Pipeline_WB.v)]", 11, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Writr_Back : Pipeline_WB (Pipeline_WB.v)]", 11, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 84 MB (+1137kb) [00:02:39]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v), U0 : MUX2T1_32 (MUX2T1_32.v)]", 4, false); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), IF_reg_ID : IF_reg_ID (IF_reg_ID.v)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 91 MB (+3316kb) [00:03:12]
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pipeline_CPU.v", 2); // k (j, cj)
+selectCodeEditor("Pipeline_CPU.v", 130, 194); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 130, 194, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 226, 197); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 238, 193); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 238, 193, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 156, 227); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 156, 227, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 117, 214); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 117, 214, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 249, 234); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 249, 234, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 363, 238); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 363, 238, false, false, false, false, true); // cd (w, cj) - Double Click
+selectCodeEditor("Pipeline_CPU.v", 439, 240); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 496, 231); // cd (w, cj)
+selectCodeEditor("Pipeline_CPU.v", 496, 231, false, false, false, false, true); // cd (w, cj) - Double Click
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bs (cj):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 97 MB (+1366kb) [00:04:17]
+// [Engine Memory]: 678 MB (+7425kb) [00:04:17]
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bs (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// x (cj): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // x (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 50 MB. Current time: 6/20/22 11:17:17 AM CST
+// Elapsed time: 16 seconds
+selectCodeEditor("CSSTE.v", 530, 181); // cd (w, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cj)
+selectCodeEditor("CSSTE.v", 667, 489); // cd (w, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pipeline_CPU.v", 1); // k (j, cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 39 seconds
+selectCodeEditor("Pipeline_CPU.v", 882, 275); // cd (w, cj)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 0); // k (j, cj)
+// [GUI Memory]: 103 MB (+753kb) [00:10:10]
+// Elapsed time: 356 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pipeline_CPU.v", 1); // k (j, cj)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "Pipeline_CPU.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_CPU.v"); // ax (aF, FrameFloatingContainer)
+// HMemoryUtils.trashcanNow. Engine heap size: 708 MB. GUI used memory: 78 MB. Current time: 6/20/22 11:25:02 AM CST
+// [GUI Memory]: 109 MB (+1805kb) [00:13:26]
+// [GUI Memory]: 116 MB (+1136kb) [00:13:36]
+// Elapsed time: 105 seconds
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, FrameFloatingContainer)
+// Elapsed time: 55 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_CPU.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_CPU.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_CPU.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 0); // k (j, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// v (cj): Settings: addNotify
+// [Engine Memory]: 760 MB (+49663kb) [00:14:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 763 MB. GUI used memory: 63 MB. Current time: 6/20/22 11:27:48 AM CST
+dismissDialog("Settings"); // v (cj)
+selectCodeEditor("CSSTE.v", 936, 162); // cd (w, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U3 : RAM_B (RAM_B.v)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U2 : ROM_P (ROM_P.xci)]", 3, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Fetch : Pipeline_IF (Pipeline_IF.v)]", 3, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "Pipeline_IF.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_IF.v"); // ax (aF, FrameFloatingContainer)
+// [GUI Memory]: 123 MB (+1288kb) [00:16:26]
+// [GUI Memory]: 130 MB (+1080kb) [00:17:51]
+// [GUI Memory]: 138 MB (+1107kb) [00:18:11]
+// Elapsed time: 158 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_IF.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_IF.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_IF.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pipeline_WB.v", 2); // k (j, cj)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), IF_reg_ID : IF_reg_ID (IF_reg_ID.v)]", 7, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), IF_reg_ID : IF_reg_ID (IF_reg_ID.v)]", 7, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 28 seconds
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "IF_reg_ID.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "IF_reg_ID.v"); // ax (aF, FrameFloatingContainer)
+// Elapsed time: 84 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "IF_reg_ID.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "IF_reg_ID.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "IF_reg_ID.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8, true); // B (D, cj) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8); // B (D, cj)
+// [GUI Memory]: 145 MB (+376kb) [00:20:25]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Instruction_Decoder : Pipeline_ID (Pipeline_ID.v)]", 8, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// [GUI Memory]: 153 MB (+214kb) [00:22:36]
+// Elapsed time: 201 seconds
+floatView(PAResourceOtoP.PAViews_CODE, "Pipeline_ID.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_ID.v"); // ax (aF, FrameFloatingContainer)
+selectButton(PAResourceAtoD.AbstractFileView_CLOSE, (String) null); // k (B, FrameFloatingContainer)
+// [GUI Memory]: 160 MB (+25kb) [00:26:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 772 MB. GUI used memory: 71 MB. Current time: 6/20/22 12:17:15 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 4033 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_ID.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_ID.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_ID.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+floatView(PAResourceOtoP.PAViews_CODE, "ID_reg_Ex.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "ID_reg_Ex.v"); // ax (aF, FrameFloatingContainer)
+// Elapsed time: 96 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "ID_reg_Ex.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "ID_reg_Ex.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "ID_reg_Ex.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Execute : Pipeline_Ex (Pipeline_Ex.v)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Execute : Pipeline_Ex (Pipeline_Ex.v), ALU : ALU (ALU.v)]", 13, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), ID_reg_Ex : ID_reg_Ex (ID_reg_Ex.v)]", 9, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Execute : Pipeline_Ex (Pipeline_Ex.v)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Execute : Pipeline_Ex (Pipeline_Ex.v)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "Pipeline_Ex.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Ex.v"); // ax (aF, FrameFloatingContainer)
+// Elapsed time: 53 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Ex.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Ex.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Ex.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Ex_reg_Mem : Ex_reg_Mem (Ex_reg_Mem.v)]", 11, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Ex_reg_Mem : Ex_reg_Mem (Ex_reg_Mem.v)]", 11, false, false, false, false, false, true); // B (D, cj) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "Ex_reg_Mem.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Ex_reg_Mem.v"); // ax (aF, FrameFloatingContainer)
+// HMemoryUtils.trashcanNow. Engine heap size: 779 MB. GUI used memory: 121 MB. Current time: 6/20/22 12:47:13 PM CST
+// Elapsed time: 229 seconds
+selectCodeEditor("Ex_reg_Mem.v", 860, 368); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 844, 408); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 848, 431); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 852, 456); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 853, 484); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 854, 498); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 850, 515); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 322, 471); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 356, 486); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 356, 469); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 375, 453); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 379, 434); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 398, 411); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 390, 400); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 383, 376); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 376, 350); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 370, 326); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 387, 358); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 407, 400); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 395, 389); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 410, 411); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 405, 437); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 396, 423); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 389, 412); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 369, 434); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 366, 455); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 362, 478); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 383, 506); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 396, 531); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 400, 537); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 397, 552); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 380, 576); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 418, 606); // cd (w, FrameFloatingContainer)
+selectCodeEditor("Ex_reg_Mem.v", 427, 635); // cd (w, FrameFloatingContainer)
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeFrame(PAResourceOtoP.PAViews_CODE, "Ex_reg_Mem.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Ex_reg_Mem.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Ex_reg_Mem.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// HMemoryUtils.trashcanNow. Engine heap size: 780 MB. GUI used memory: 72 MB. Current time: 6/20/22 12:51:19 PM CST
+// Elapsed time: 83 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Memory_Access : Pipeline_Mem (Pipeline_Mem.v)]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Ex_reg_Mem : Ex_reg_Mem (Ex_reg_Mem.v)]", 11, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Ex_reg_Mem : Ex_reg_Mem (Ex_reg_Mem.v)]", 11, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Ex_reg_Mem : Ex_reg_Mem (Ex_reg_Mem.v)]", 11, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Memory_Access : Pipeline_Mem (Pipeline_Mem.v)]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Memory_Access : Pipeline_Mem (Pipeline_Mem.v)]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Memory_Access : Pipeline_Mem (Pipeline_Mem.v)]", 12, false, false, false, false, false, true); // B (D, cj) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+floatView(PAResourceOtoP.PAViews_CODE, "Pipeline_Mem.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Mem.v"); // ax (aF, FrameFloatingContainer)
+// Elapsed time: 53 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Mem.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Mem.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Pipeline_Mem.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Mem_reg_WB : Mem_reg_WB (Mem_reg_WB.v)]", 13, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Mem_reg_WB : Mem_reg_WB (Mem_reg_WB.v)]", 13, false, false, false, false, false, true); // B (D, cj) - Double Click
+floatView(PAResourceOtoP.PAViews_CODE, "Mem_reg_WB.v"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Mem_reg_WB.v"); // ax (aF, FrameFloatingContainer)
+// Elapsed time: 101 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Mem_reg_WB.v"); // ax (aF, FrameFloatingContainer)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Mem_reg_WB.v"); // ax (aF, FrameFloatingContainer)
+maximizeFrame(PAResourceOtoP.PAViews_CODE, "Mem_reg_WB.v"); // ax (aF, FrameFloatingContainer)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Writr_Back : Pipeline_WB (Pipeline_WB.v)]", 14, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v), Writr_Back : Pipeline_WB (Pipeline_WB.v)]", 14, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+selectCodeEditor("Pipeline_WB.v", 0, 135); // cd (w, cj)
+selectCodeEditor("Pipeline_WB.v", 347, 436); // cd (w, cj)
+selectCodeEditor("Pipeline_WB.v", 477, 54); // cd (w, cj)
+// Elapsed time: 613 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v)]", 32, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v), vga_controller : VgaController (VgaController.v)]", 33, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v), vga_controller : VgaController (VgaController.v)]", 33, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v), vga_controller : VgaController (VgaController.v)]", 33, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v), vga_display : VgaDisplay (VgaDisplay.v)]", 34, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U11 : VGA (VGA.v), vga_display : VgaDisplay (VgaDisplay.v)]", 34, false, false, false, false, false, true); // B (D, cj) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Elapsed time: 148 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax
+floatView(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, cj)
+// PAResourceOtoP.PAViews_SOURCES: Sources: float view
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, FrameFloatingContainer)
+// HMemoryUtils.trashcanNow. Engine heap size: 784 MB. GUI used memory: 76 MB. Current time: 6/20/22 1:21:19 PM CST
+// Elapsed time: 1504 seconds
+closeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, FrameFloatingContainer)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // ax
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+dismissDialog("Settings"); // v (cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Pipeline_WB.v", 2); // k (j, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (cj)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // ax
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_UNSELECT_TYPE, "Unselect Type"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, cj)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenuItem(RDIResource.MainWinMenuMgr_LOAD, "Default Layout"); // ac (cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenuItem(RDIResource.MainWinMenuMgr_LOAD, "Default Layout"); // ac (cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+selectMenuItem(RDIResourceCommand.RDICommands_RESET_LAYOUT, "Reset Layout"); // ac (cj)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, cj)
+// Run Command: RDIResourceCommand.RDICommands_RESET_LAYOUT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, Popup.HeavyWeightWindow)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+selectCodeEditor("CSSTE.v", 330, 229); // cd (w, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CSSTE (CSSTE.v), U1 : Pipeline_CPU (Pipeline_CPU.v)]", 2, true, false, false, false, true, false); // B (D, cj) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go to Source"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+selectCodeEditor("CSSTE.v", 242, 83); // cd (w, cj)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CSSTE.v", 1, true, false); // k (j, cj) - Popup Trigger
+selectCodeEditor("CSSTE.v", 411, 55); // cd (w, cj)

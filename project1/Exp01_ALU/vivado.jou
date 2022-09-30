@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar 17 15:03:40 2022
+# Process ID: 20052
+# Current directory: D:/14.7/LabofCOAD/project1/Exp01_ALU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23548 D:\14.7\LabofCOAD\project1\Exp01_ALU\Exp01_ALU.xpr
+# Log file: D:/14.7/LabofCOAD/project1/Exp01_ALU/vivado.log
+# Journal file: D:/14.7/LabofCOAD/project1/Exp01_ALU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/14.7/LabofCOAD/project1/Exp01_ALU/Exp01_ALU.xpr
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+source ALU_tb.tcl
+close_sim
+close_project
+open_project D:/14.7/LabofCOAD/project1/Exp01_ALU_2/Exp01_ALU_2.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/14.7/LabofCOAD/project1/Exp01_Reg/Exp01_Reg.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source regs_tb.tcl
+close_sim
+close_project
+open_project D:/14.7/LabofCOAD/project1/Exp01_FSM/Exp01_FSM.xpr
+close_project
+open_project D:/14.7/LabofCOAD/project1/MyALU/MyALU.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/14.7/LabofCOAD/project1/Exp01_FSM/Exp01_FSM.xpr

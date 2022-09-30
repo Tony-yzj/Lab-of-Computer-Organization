@@ -1,0 +1,242 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 23 17:03:10 2022
+# Process ID: 20656
+# Current directory: D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23764 D:\14.7\LabofCOAD\project5\OExp05_Pipeline_CPU_example\VGA\VGA.xpr
+# Log file: D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/vivado.log
+# Journal file: D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/VGA' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.srcs/sources_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 817.363 ; gain = 86.152
+update_compile_order -fileset sources_1
+close_project
+open_project D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.xpr
+INFO: [Project 1-313] Project file moved from 'D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_inter' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/14.7/LabofCOAD/project2/Lab02 CPU实验环境搭建/Lab02 CPU实验环境搭建（学生版）/OExp02-IP2SOC/IP/Supplementary'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA.v
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA.edf] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA.edf
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_D/ROM_D.xci] -no_script -reset -force -quiet
+remove_files  -fileset ROM_D D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_D/ROM_D.xci
+INFO: [Project 1-386] Moving file 'D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_D/ROM_D.xci' from fileset 'ROM_D' to fileset 'sources_1'.
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/imports/new/SCPU.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/imports/new/SCPU.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/CPU/SCPU.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/CPU/SCPU.v
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/DataPath.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/DataPath.v
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ADC32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ALU.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ImmGen.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new/MC14495_ZJU.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/MUX2T1_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/new/MUX4T1_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/MUX8T1_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/new/REG32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/RV_int.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/SCPU_ctrl.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/SignalExt_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA/VGA.srcs/sources_1/new/VgaDisplay.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/add_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/and32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/nor32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/or32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/or_bit_32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/regs.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/srl32.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/xor32.v] -no_script -reset -force -quiet
+remove_files  {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ADC32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ALU.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/ImmGen.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new/MC14495_ZJU.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/MUX2T1_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/new/MUX4T1_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/MUX8T1_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/sources_1/new/REG32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/RV_int.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/SCPU_ctrl.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/SignalExt_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/VGA/VGA.srcs/sources_1/new/VgaDisplay.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/add_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/and32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/nor32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/or32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/or_bit_32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/regs.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/srl32.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/new/xor32.v}
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse {D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/ID_reg_Ex.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_ID.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Mem_reg_WB.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_WB.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Ex.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_IF.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Ex_reg_Mem.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/IF_reg_ID.edf D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Mem.edf}
+import_files -norecurse {D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/IF_reg_ID.v D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Ex_reg_Mem.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Mem.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_IF.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Mem_reg_WB.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_IF.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/ID_reg_Ex.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_ID.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Ex.v D:/14.7/LabofCOAD/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_WB.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_IF.v] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_IF.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -norecurse {D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/vga_debugger.mem D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/font_8x16.mem}
+import_files -norecurse {D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.srcs/sources_1/imports/Framework/VGA.v D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.srcs/sources_1/imports/Framework/VgaDebugger.v D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.srcs/sources_1/imports/Framework/VgaDisplay.v D:/14.7/LabofCOAD/project5/OExp05_Pipeline_CPU_example/VGA/VGA.srcs/sources_1/imports/Framework/VgaController.v}
+update_compile_order -fileset sources_1
+set_param general.maxThreads 8
+8
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name ROM_P -dir d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip
+set_property -dict [list CONFIG.depth {1024} CONFIG.data_width {32} CONFIG.Component_Name {ROM_P} CONFIG.memory_type {rom} CONFIG.coefficient_file {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/P.coe}] [get_ips ROM_P]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'ROM_P' to 'ROM_P' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/P.coe' provided. It will be converted relative to IP Instance files '../../../../P.coe'
+generate_target {instantiation_template} [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_P/ROM_P.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM_P'...
+generate_target all [get_files  d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_P/ROM_P.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM_P'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM_P'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM_P'...
+catch { config_ip_cache -export [get_ips -all ROM_P] }
+export_ip_user_files -of_objects [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_P/ROM_P.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_P/ROM_P.xci]
+launch_runs -jobs 4 ROM_P_synth_1
+[Mon May 23 18:08:22 2022] Launched ROM_P_synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/ROM_P_synth_1/runme.log
+export_simulation -of_objects [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_P/ROM_P.xci] -directory D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_ip -name dist_mem_gen -vendor xilinx.com -library ip -version 8.0 -module_name ROM_h -dir d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip
+set_property -dict [list CONFIG.depth {1024} CONFIG.data_width {32} CONFIG.Component_Name {ROM_h} CONFIG.coefficient_file {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/h.coe}] [get_ips ROM_h]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'ROM_h' to 'ROM_h' is not allowed and is ignored.
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/h.coe' provided. It will be converted relative to IP Instance files '../../../../h.coe'
+generate_target {instantiation_template} [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_h/ROM_h.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ROM_h'...
+generate_target all [get_files  d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_h/ROM_h.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM_h'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ROM_h'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ROM_h'...
+catch { config_ip_cache -export [get_ips -all ROM_h] }
+export_ip_user_files -of_objects [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_h/ROM_h.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_h/ROM_h.xci]
+launch_runs -jobs 4 ROM_h_synth_1
+[Mon May 23 18:08:53 2022] Launched ROM_h_synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/ROM_h_synth_1/runme.log
+export_simulation -of_objects [get_files d:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/ip/ROM_h/ROM_h.xci] -directory D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files -ipstatic_source_dir D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/questa} {riviera=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/I_mem.coe] -no_script -reset -force -quiet
+remove_files  D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/I_mem.coe
+export_ip_user_files -of_objects  [get_files {{D:/1My Vault/D_mem.coe}}] -no_script -reset -force -quiet
+remove_files  {{D:/1My Vault/D_mem.coe}}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:09:49 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:09:49 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:12:11 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:12:11 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:13:21 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:13:21 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:14:33 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:14:33 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:15:44 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:15:44 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:19:32 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:19:32 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:21:00 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:21:00 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:22:00 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:22:00 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:28:22 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:28:22 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+get_param general.maxThreads
+8
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 967.168 ; gain = 0.508
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/201706300081
+set_property PROGRAM.FILE {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1560.180 ; gain = 1.012
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon May 23 18:38:42 2022] Launched synth_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/runme.log
+[Mon May 23 18:38:42 2022] Launched impl_1...
+Run output will be captured here: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/impl_1/CSSTE.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1567.422 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+INFO: [Labtools 27-1434] Device xc7k160t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/201706300081
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 23 22:34:24 2022...

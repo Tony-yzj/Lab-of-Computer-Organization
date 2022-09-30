@@ -1,0 +1,15 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 2b23453eebb243dbb586707dc08ff0b0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ALU_tb_behav xil_defaultlib.ALU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port o on this module [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:52]
+ERROR: [VRFC 10-2063] Module <SignalExt_32> not found while processing module instance <SignalExt_32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:54]
+ERROR: [VRFC 10-2063] Module <ADC32> not found while processing module instance <addc_32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:57]
+ERROR: [VRFC 10-2063] Module <and32> not found while processing module instance <and32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:62]
+ERROR: [VRFC 10-2063] Module <nor32> not found while processing module instance <nor32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:66]
+ERROR: [VRFC 10-2063] Module <or32> not found while processing module instance <or32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:70]
+ERROR: [VRFC 10-2063] Module <or_bit_32> not found while processing module instance <or_bit_32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:74]
+ERROR: [VRFC 10-2063] Module <srl32> not found while processing module instance <srl32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:77]
+ERROR: [VRFC 10-2063] Module <xor32> not found while processing module instance <xor32_0> [D:/1My Vault/2022 spring/Lab of COAD/project1/MyALU/MyALU.srcs/sources_1/imports/Lab of COAD/project1/ALU/ALU.srcs/sources_1/new/ALU.v:81]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

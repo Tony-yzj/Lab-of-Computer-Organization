@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/1My Vault/2022 spring/Lab of COAD/project1/ALU/ALU.sim/sim_1/synth/func/xsim/ALU_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/1My Vault/2022 spring/Lab of COAD/project1/ALU/ALU.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_tb

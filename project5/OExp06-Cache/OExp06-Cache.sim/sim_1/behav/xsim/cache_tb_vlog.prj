@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../OExp06-Cache.srcs/sources_1/new/Data_ram0.v" \
+"../../../../OExp06-Cache.srcs/sources_1/new/Data_ram1.v" \
+"../../../../OExp06-Cache.srcs/sources_1/new/Tag_ram0.v" \
+"../../../../OExp06-Cache.srcs/sources_1/new/Tag_ram1.v" \
+"../../../../OExp06-Cache.srcs/sources_1/new/cache.v" \
+"../../../../OExp06-Cache.srcs/sim_1/new/cache_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

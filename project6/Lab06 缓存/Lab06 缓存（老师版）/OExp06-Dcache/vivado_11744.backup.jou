@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jun  8 09:15:38 2021
+# Process ID: 11744
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5276 C:\Users\ASUS\Desktop\OExp_RISCV\OExp06\OExp06-Dcache\OExp06-Dcache.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/dram0.mem w ]
+add_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/dram0.mem
+close [ open C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/dram1.mem w ]
+add_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/dram1.mem
+close [ open C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/tram0.mem w ]
+add_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/tram0.mem
+close [ open C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/tram1.mem w ]
+add_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sources_1/new/tram1.mem
+file mkdir C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sim_1/new/cache_tb.v w ]
+add_files -fileset sim_1 C:/Users/ASUS/Desktop/OExp_RISCV/OExp06/OExp06-Dcache/OExp06-Dcache.srcs/sim_1/new/cache_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source cache_tb.tcl
+add_wave {{/cache_tb/uut}} 
+relaunch_sim
+restart
+relaunch_sim
+restart
+relaunch_sim
+restart
+relaunch_sim
+restart
+relaunch_sim
+close_sim
+launch_simulation
+source cache_tb.tcl
+close_sim
+launch_simulation
+source cache_tb.tcl
+add_wave {{/cache_tb/uut}} 
+relaunch_sim
+close_sim

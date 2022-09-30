@@ -1,0 +1,622 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon May 23 18:38:47 2022
+# Process ID: 6128
+# Current directory: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1
+# Command line: vivado.exe -log CSSTE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE.tcl
+# Log file: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/CSSTE.vds
+# Journal file: D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CSSTE.tcl -notrace
+Command: synth_design -top CSSTE -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25036 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 402.191 ; gain = 95.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CSSTE' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:22]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_CPU' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_IF' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_IF.v:15]
+INFO: [Synth 8-638] synthesizing module 'IF_reg_ID' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/IF_reg_ID.v:15]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_ID' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_ID.v:15]
+WARNING: [Synth 8-689] width (5) of port connection 'Rd_addr_out_ID' does not match port width (32) of module 'Pipeline_ID_bbox_2' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v:95]
+INFO: [Synth 8-638] synthesizing module 'ID_reg_Ex' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/ID_reg_Ex.v:15]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_Ex' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Ex.v:15]
+INFO: [Synth 8-638] synthesizing module 'Ex_reg_Mem' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Ex_reg_Mem.v:15]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_Mem' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Mem.v:15]
+INFO: [Synth 8-638] synthesizing module 'Mem_reg_WB' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Mem_reg_WB.v:15]
+INFO: [Synth 8-638] synthesizing module 'Pipeline_WB' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_WB.v:15]
+WARNING: [Synth 8-3848] Net inst_ID in module/entity Pipeline_CPU does not have driver. [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v:33]
+WARNING: [Synth 8-3848] Net CPU_MIO in module/entity Pipeline_CPU does not have driver. [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v:39]
+INFO: [Synth 8-256] done synthesizing module 'Pipeline_CPU' (1#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OxExp05-Pipeline/OxExp05-Pipeline.srcs/sources_1/new/Pipeline_CPU.v:23]
+WARNING: [Synth 8-350] instance 'U1' of module 'Pipeline_CPU' requires 15 connections, but only 14 given [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:72]
+INFO: [Synth 8-638] synthesizing module 'ROM_P' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/realtime/ROM_P_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ROM_P' (2#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/realtime/ROM_P_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'RAM_B' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/RAM_B.v:15]
+WARNING: [Synth 8-689] width (32) of port connection 'wea' does not match port width (1) of module 'RAM_B_bbox_9' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:97]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/MIO_BUS.v:15]
+WARNING: [Synth 8-689] width (32) of port connection 'data_ram_we' does not match port width (1) of module 'MIO_BUS_bbox_10' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:114]
+INFO: [Synth 8-638] synthesizing module 'Multi_8CH32' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Multi_8CH32.v:15]
+INFO: [Synth 8-638] synthesizing module 'SSeg7_Dev_0' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/realtime/SSeg7_Dev_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'SSeg7_Dev_0' (3#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/realtime/SSeg7_Dev_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'SPIO' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SPIO.v:15]
+WARNING: [Synth 8-350] instance 'U7' of module 'SPIO' requires 12 connections, but only 11 given [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:156]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/clk_div.v:15]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SAnti_jitter.v:15]
+WARNING: [Synth 8-350] instance 'U9' of module 'SAnti_jitter' requires 13 connections, but only 8 given [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:176]
+INFO: [Synth 8-638] synthesizing module 'Counter_x' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Counter_x.v:15]
+INFO: [Synth 8-638] synthesizing module 'VGA' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:2]
+INFO: [Synth 8-638] synthesizing module 'VgaController' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaController.v:1]
+	Parameter HS_1 bound to: 96 - type: integer 
+	Parameter VS_1 bound to: 2 - type: integer 
+	Parameter HS_2 bound to: 157 - type: integer 
+	Parameter VS_2 bound to: 57 - type: integer 
+	Parameter WIDTH bound to: 640 - type: integer 
+	Parameter HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'VgaController' (4#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaController.v:1]
+INFO: [Synth 8-638] synthesizing module 'VgaDisplay' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:1]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:14]
+INFO: [Synth 8-3876] $readmem data file 'D://14.7//LabofCOAD//project5//OExp02-IP2SOC_pipline//vga_debugger.mem' is read successfully [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:15]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:24]
+INFO: [Synth 8-3876] $readmem data file 'D://14.7//LabofCOAD//project5//OExp02-IP2SOC_pipline//font_8x16.mem' is read successfully [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:25]
+INFO: [Synth 8-256] done synthesizing module 'VgaDisplay' (5#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDisplay.v:1]
+INFO: [Synth 8-638] synthesizing module 'VgaDebugger' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDebugger.v:31]
+INFO: [Synth 8-638] synthesizing module 'Hex2Ascii' [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDebugger.v:3]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Ascii' (6#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDebugger.v:3]
+INFO: [Synth 8-256] done synthesizing module 'VgaDebugger' (7#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VgaDebugger.v:31]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (8#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:2]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE' (9#1) [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/new/CSSTE.v:22]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[31]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[30]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[29]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[28]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[27]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[26]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[25]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[24]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[23]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[22]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[21]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[20]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[19]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[18]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[17]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[16]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[15]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[14]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[13]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[12]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[11]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[10]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[9]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[8]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[7]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[6]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[5]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[4]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[3]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[2]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[1]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port inst_ID[0]
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port CPU_MIO
+WARNING: [Synth 8-3331] design Pipeline_CPU has unconnected port MIO_ready
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 454.473 ; gain = 147.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IfId_valid to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[31] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[30] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[29] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[28] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[27] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[26] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[25] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[24] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[23] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[22] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[21] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[20] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[19] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[18] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[17] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[16] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[15] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[14] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[13] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[12] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[11] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[10] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[9] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[8] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[7] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[6] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[5] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[4] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[3] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[2] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[1] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_inst[0] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_valid to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rd[4] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rd[3] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rd[2] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rd[1] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rd[0] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1[4] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1[3] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1[2] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1[1] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1[0] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2[4] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2[3] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2[2] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2[1] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2[0] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[31] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[30] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[29] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[28] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[27] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[26] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[25] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[24] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[23] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[22] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[21] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[20] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[19] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[18] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[17] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[16] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[15] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[14] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[13] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[12] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[11] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[10] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[9] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[8] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[7] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[6] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[5] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[4] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[3] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[2] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[1] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs1_val[0] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[31] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[30] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[29] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[28] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[27] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[26] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[25] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[24] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[23] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[22] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[21] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[20] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[19] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[18] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[17] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[16] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[15] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[14] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:IdEx_rs2_val[13] to constant 0 [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Framework/VGA.v:55]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 454.473 ; gain = 147.746
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/dcp2/SSeg7_Dev_0_in_context.xdc] for cell 'U6'
+Finished Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/dcp2/SSeg7_Dev_0_in_context.xdc] for cell 'U6'
+Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/dcp3/ROM_P_in_context.xdc] for cell 'U2'
+Finished Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/.Xil/Vivado-6128-LAPTOP-23S8O1B1/dcp3/ROM_P_in_context.xdc] for cell 'U2'
+Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]
+Finished Parsing XDC File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 779.711 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 779.711 ; gain = 472.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 779.711 ; gain = 472.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U6. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 779.711 ; gain = 472.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "v_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "fonts_data" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5546] ROM "display_wen" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 779.711 ; gain = 472.984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	 416 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	 416 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VgaController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module VgaDisplay 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+Module VgaDebugger 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	 416 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	 416 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "U11/vga_controller/v_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "p_0_out" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5546] ROM "U11/vga_debugger/display_wen" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3463] Infeasible ramstyle = block set for RAM U11/vga_display/display_data_reg,trying to implement using LUTRAM
+WARNING: [Synth 8-3463] Infeasible ramstyle = block set for RAM U11/vga_display/display_data_reg,trying to implement using LUTRAM
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:01:04 . Memory (MB): peak = 779.711 ; gain = 472.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|VgaDisplay  | p_0_out    | 4096x8        | LUT            | 
+|CSSTE       | p_0_out    | 4096x8        | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+|Module Name | RTL Object                       | Inference | Size (Depth x Width) | Primitives                     | 
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+|CSSTE       | U11/vga_display/display_data_reg | Implied   | 4 K x 7              | RAM64X1D x 128  RAM64M x 128   | 
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 847.902 ; gain = 541.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 849.418 ; gain = 542.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+|Module Name | RTL Object                       | Inference | Size (Depth x Width) | Primitives                     | 
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+|CSSTE       | U11/vga_display/display_data_reg | Implied   | 4 K x 7              | RAM64X1D x 128  RAM64M x 128   | 
++------------+----------------------------------+-----------+----------------------+--------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:19 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:13 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:13 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:13 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:13 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ROM_P         |         1|
+|2     |RAM_B         |         1|
+|3     |MIO_BUS       |         1|
+|4     |Multi_8CH32   |         1|
+|5     |SSeg7_Dev_0   |         1|
+|6     |SPIO          |         1|
+|7     |clk_div       |         1|
+|8     |SAnti_jitter  |         1|
+|9     |Counter_x     |         1|
+|10    |Pipeline_IF   |         1|
+|11    |IF_reg_ID     |         1|
+|12    |Pipeline_ID   |         1|
+|13    |ID_reg_Ex     |         1|
+|14    |Pipeline_Ex   |         1|
+|15    |Ex_reg_Mem    |         1|
+|16    |Pipeline_Mem  |         1|
+|17    |Mem_reg_WB    |         1|
+|18    |Pipeline_WB   |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------------+------+
+|      |Cell                 |Count |
++------+---------------------+------+
+|1     |Counter_x_bbox_15    |     1|
+|2     |Ex_reg_Mem_bbox_5    |     1|
+|3     |ID_reg_Ex_bbox_3     |     1|
+|4     |IF_reg_ID_bbox_1     |     1|
+|5     |MIO_BUS_bbox_10      |     1|
+|6     |Mem_reg_WB_bbox_7    |     1|
+|7     |Multi_8CH32_bbox_11  |     1|
+|8     |Pipeline_Ex_bbox_4   |     1|
+|9     |Pipeline_ID_bbox_2   |     1|
+|10    |Pipeline_IF_bbox_0   |     1|
+|11    |Pipeline_Mem_bbox_6  |     1|
+|12    |Pipeline_WB_bbox_8   |     1|
+|13    |RAM_B_bbox_9         |     1|
+|14    |ROM_P                |     1|
+|15    |SAnti_jitter_bbox_14 |     1|
+|16    |SPIO_bbox_12         |     1|
+|17    |SSeg7_Dev_0          |     1|
+|18    |clk_div_bbox_13      |     1|
+|19    |BUFG                 |     1|
+|20    |CARRY4               |    11|
+|21    |LUT1                 |     7|
+|22    |LUT2                 |    61|
+|23    |LUT3                 |    45|
+|24    |LUT4                 |    49|
+|25    |LUT5                 |    87|
+|26    |LUT6                 |   865|
+|27    |MUXF7                |   251|
+|28    |MUXF8                |   124|
+|29    |RAM64M               |   128|
+|30    |RAM64X1D             |   128|
+|31    |FDRE                 |    44|
+|32    |FDSE                 |     2|
+|33    |IBUF                 |    22|
+|34    |OBUF                 |    22|
++------+---------------------+------+
+
+Report Instance Areas: 
++------+-------------------+--------------+------+
+|      |Instance           |Module        |Cells |
++------+-------------------+--------------+------+
+|1     |top                |              |  3000|
+|2     |  U1               |Pipeline_CPU  |   807|
+|3     |  U11              |VGA           |  1779|
+|4     |    vga_controller |VgaController |   816|
+|5     |    vga_debugger   |VgaDebugger   |   391|
+|6     |    vga_display    |VgaDisplay    |   572|
++------+-------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:01:11 . Memory (MB): peak = 888.742 ; gain = 256.777
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:21 . Memory (MB): peak = 888.742 ; gain = 582.016
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/RAM_B.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/Supplementary/RAM_B.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/MIO_BUS.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/MIO_BUS.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Multi_8CH32.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Multi_8CH32.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SPIO.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SPIO.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/clk_div.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/clk_div.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SAnti_jitter.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/SAnti_jitter.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Counter_x.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/IP/Supplementary/Counter_x.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_IF.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_IF.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/IF_reg_ID.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/IF_reg_ID.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_ID.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_ID.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/ID_reg_Ex.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/ID_reg_Ex.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Ex.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Ex.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Ex_reg_Mem.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Ex_reg_Mem.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Mem.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_Mem.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Mem_reg_WB.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Mem_reg_WB.edf]
+Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_WB.edf]
+Finished Parsing EDIF File [D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.srcs/sources_1/imports/OExp05_Pipeline_CPU_example/Pipeline_WB.edf]
+INFO: [Netlist 29-17] Analyzing 1064 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 256 instances were transformed.
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 128 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 144 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:19 ; elapsed = 00:01:29 . Memory (MB): peak = 888.742 ; gain = 593.496
+INFO: [Common 17-600] The following parameters have non-default value.
+general.maxThreads
+INFO: [Common 17-1381] The checkpoint 'D:/14.7/LabofCOAD/project5/OExp02-IP2SOC_pipline/OExp02-IP2SOC.runs/synth_1/CSSTE.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CSSTE_utilization_synth.rpt -pb CSSTE_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.216 . Memory (MB): peak = 888.742 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 23 18:40:30 2022...

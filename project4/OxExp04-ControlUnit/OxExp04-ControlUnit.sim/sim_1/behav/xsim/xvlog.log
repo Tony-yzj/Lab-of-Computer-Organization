@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/14.7/LabofCOAD/project4/OxExp04-ControlUnit/OxExp04-ControlUnit.srcs/sources_1/imports/OExp04-Datapath.srcs/sources_1/new/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/14.7/LabofCOAD/project4/OxExp04-ControlUnit/OxExp04-ControlUnit.srcs/sim_1/imports/new/SCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_tb
